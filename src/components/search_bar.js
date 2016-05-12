@@ -6,13 +6,12 @@ import React from 'react';
 // class based component
 
 const SearchBar = ({onSearch}) => {
-		return(
+		return (
 		   <div className="search-bar">
 		    <input 
 		       onChange={(event) => onSearch(event.target.value)} />
 		   </div>
 		 );
 }
-
 
 export default SearchBar;
